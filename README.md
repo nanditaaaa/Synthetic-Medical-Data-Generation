@@ -47,19 +47,19 @@ This project focuses on generating synthetic medical data to enhance predictive 
 1. **Training the Model**:
     Run the script to train the GAN and generate synthetic data:
     ```sh
-    python train_gan.py
+    python diab.py
     ```
 
 2. **Augmenting Data**:
     Run the script to augment the synthetic data:
     ```sh
-    python augment_data.py
+    python diab.py
     ```
 
 3. **Predicting Diabetes**:
     Run the script to train predictive models and evaluate performance:
     ```sh
-    python predict_diabetes.py
+    python diab.py
     ```
 
 4. **Deploying the Application**:
