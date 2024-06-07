@@ -1,4 +1,4 @@
-# Synthetic-Medical-Data-Generation
+# Synthetic Medical Data Generation
 
 ## Overview
 
