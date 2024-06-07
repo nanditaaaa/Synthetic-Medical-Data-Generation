@@ -1,9 +1,4 @@
 # Synthetic-Medical-Data-Generation
-Sure, here's a README file tailored for a GitHub repository that includes only your code files related to the "Synthetic Medical Data Generation" project:
-
----
-
-# Synthetic Medical Data Generation
 
 ## Overview
 
@@ -32,7 +27,7 @@ This project focuses on generating synthetic medical data to enhance predictive 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/Synthetic-Medical-Data-Generation.git
+    git clone https://github.com/nanditaaaa/Synthetic-Medical-Data-Generation.git
     cd Synthetic-Medical-Data-Generation
     ```
 
@@ -79,23 +74,23 @@ This project focuses on generating synthetic medical data to enhance predictive 
 ```
 Synthetic-Medical-Data-Generation/
 ├── README.md
-├── requirements.txt
-├── train_gan.py
-├── augment_data.py
-├── predict_diabetes.py
 ├── app.py
 ├── templates/
+│   ├── diab.py
+│   ├── app.yaml
+│   ├── requirements.txt
+│   ├── Diabetes.csv
 │   └── index.html
-└── static/
-    └── style.css
 ```
 
-- **train_gan.py**: Script for training the GAN model.
-- **augment_data.py**: Script for augmenting the synthetic dataset.
-- **predict_diabetes.py**: Script for training and evaluating predictive models.
+- **README.md**: This file.
 - **app.py**: Flask application script.
-- **templates/**: Directory for HTML templates.
-- **static/**: Directory for static files like CSS.
+- **templates/**: Directory containing application files.
+  - **diab.py**: Script for diabetes prediction.
+  - **app.yaml**: Configuration file for deployment.
+  - **requirements.txt**: List of dependencies.
+  - **Diabetes.csv**: Dataset used for the project.
+  - **index.html**: HTML template for the web application.
 
 ## Results and Analysis
 
@@ -104,4 +99,5 @@ Detailed analysis of the models' performance on the augmented synthetic dataset 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
+
 
